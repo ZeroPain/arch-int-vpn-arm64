@@ -1,4 +1,4 @@
-FROM razaqq/arch-base-armhf:latest
+FROM razaqq/arch-base-arm64:latest
 LABEL maintainer="github.com/razaqq"
 
 # additional files

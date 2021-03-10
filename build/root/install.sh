@@ -21,14 +21,14 @@ mv /tmp/scripts-master/shell/arch/docker/*.sh /usr/local/bin/
 OS_ARCH=$(cat /etc/os-release | grep -P -o -m 1 "(?=^ID\=).*" | grep -P -o -m 1 "[a-z]+$")
 if [[ ! -z "${OS_ARCH}" ]]; then
 	if [[ "${OS_ARCH}" == "arch" ]]; then
-		OS_ARCH="armhf"
+		OS_ARCH="aarch64"
 	else
 		OS_ARCH="aarch64"
 	fi
 	echo "[info] OS_ARCH defined as '${OS_ARCH}'"
 else
-	echo "[warn] Unable to identify OS_ARCH, defaulting to 'armhf'"
-	OS_ARCH="armhf"
+	echo "[warn] Unable to identify OS_ARCH, defaulting to 'aarch64'"
+	OS_ARCH="aarch64"
 fi
 
 # pacman packages
