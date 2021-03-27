@@ -1,5 +1,5 @@
-FROM razaqq/arch-base-arm64:latest
-LABEL maintainer="github.com/razaqq"
+FROM ZeroPain/arch-base-arm64:latest
+LABEL maintainer="github.com/ZeroPain"
 
 # additional files
 ##################
