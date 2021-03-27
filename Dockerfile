@@ -1,5 +1,5 @@
 FROM zeropain/arch-base-arm64:latest
-LABEL maintainer="github.com/ZeroPain"
+LABEL maintainer="github.com/zeropain"
 
 # additional files
 ##################
