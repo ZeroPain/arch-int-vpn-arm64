@@ -1,4 +1,4 @@
-FROM ZeroPain/arch-base-arm64:latest
+FROM zeropain/arch-base-arm64:latest
 LABEL maintainer="github.com/ZeroPain"
 
 # additional files
